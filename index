@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=i, initial-scale=1.0">
+    <title>movingobjects</title>
+    <style>
+        .header{
+            text-align:center;
+            font-family: sans-serif;
+            font-size: 18px;
+            background: palevioletred;
+            color:papayawhip;
+        }
+    
+        #box1{
+            width:100px;
+            height: 100px;
+            background-color:palevioletred;
+            position:absolute;
+            left:60px;
+        }
+
+        #box2{
+            width:100px;
+            height:100px;
+            background-color: papayawhip;
+            position: absolute;
+            right:60px;
+        }
+        
+    </style>
+        <body style = "background-color: rgb(197, 222, 225);" >
+        </head>
+<body>
+    <div class="header">
+        <h1>JavaScript Moving Objects</h1>
+    </div>
+    <hr>
+    <div class="selectable" id="box1"></div>
+    <div class="selectable" id="box2"></div>
+    <script src="script4.js"></script>
+</body>
+</html>
